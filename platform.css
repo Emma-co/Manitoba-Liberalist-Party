@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    /* border: 1px solid; */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    transition: 0.9s ease-in-out;
+}
+
+iframe{
+    color: white;
+}
+
+body{
+    font-family: Poppins;
+    overflow-x: hidden;
+}
+
+#logo{
+    width: 10%;
+    height: 100%;
+}
+
+header{
+    background-color: maroon;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    transition: 0.7s ease-in;
+}
+
+#nav{
+    width: fit-content;
+    margin-top: -70px;
+    position: relative;
+    top: -30px;
+    left: 800px;
+}
+
+/* main{
+    margin-bottom: 500px;
+} */
+
+#nav ul{
+    display: flex;
+    position: relative;
+}   
+
+#nav ul .items{
+    color: white;
+    list-style: none;
+    margin-left: 20px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.links:hover{
+    background-color: white;
+    color: maroon;
+}
+
+#speech{
+    background-color: rgb(243, 242, 242);
+    width: 800px;
+    display: flex;
+    margin-left: 220px;
+    padding: 40px;
+    border: 2px solid maroon;
+}
+
+#part1{
+    width: 400px;
+    border-right: 2px solid maroon;
+    padding-right: 20px;
+}
+
+#part2{
+    width: 400px;
+    padding-left: 20px;
+}
+
+#part1 img{
+    width: 400px ;
+}
+
+
+footer{
+    margin-top: 200px;
+    background-color: maroon;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#footer-logo{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    /* box-shadow: 5px 5px 5px 5px rgb(64, 0, 0);
+    border-radius: 100%; */
+}
+
+#socials{
+    position: relative;
+    left: 900px;
+}
+
+#socials img{
+    width: 48px;
+    position: relative;
+    top: -70px;
+    margin-left: 10px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.9s ease-in-out;
+}
+
+#socials p{
+    color: white;
+    position: relative;
+    top: -90px;
+    left: 80px;
+}
+
+#twitter:hover{
+    animation: twitter 5s infinite alternate ease-in-out both;
+}
+
+@keyframes twitter{
+    from{
+        background-color: #3b8dff;
+        transform: rotate(0deg);
+    }
+    to{
+        background-color: white;
+        transform: rotate(360deg);
+    }
+}
+
+#facebook:hover{
+    background-color: rgb(5, 0, 147);
+    animation: facebook 5s infinite alternate ease-in-out both;
+}
+
+@keyframes facebook{
+    from{
+        background-color: rgb(5, 0, 147);
+        transform: rotate(0deg);
+    }
+    to{
+        background-color: white;
+        transform: rotate(360deg);
+    }
+}
+
+#instagram:hover{
+    animation: instagram 7s infinite alternate ease-in-out both;
+}
+
+@keyframes instagram {
+    0%{
+        background-color: #3d1a52;
+        transform: rotate(0deg);
+    }
+    20%{
+        background-color: #8a3ab9;
+    }
+    40%{
+        background-color: #e95950;
+    }
+    60%{
+        background-color: #bc2a8d;
+    }
+    80%{
+        background-color: #fccc63;
+    }
+    100%{
+        background-color: #fbad50;
+        transform: rotate(360deg);
+    }
+}
+
+#youtube:hover{
+    animation: youtube 5s infinite alternate ease-in-out both;
+}
+
+@keyframes youtube{
+    from{
+        background-color: rgb(214, 0, 0);
+        transform: rotate(0deg);
+    }
+    to{
+        background-color: white;
+        transform: rotate(360deg);
+    }
+}
+
+#footer-text{
+    position: relative;
+    top: -50px;
+    left: 420px;
+    color: white;
+    
+}
+
+iframe{
+    margin-left: 280px;
+    margin-bottom: 100px;
+}
+
+#move{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    background-color: maroon;
+    color: white;
+    padding: 50px;
+    font-size: 3rem;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(-100%);
+}
+
+.show{
+    opacity: 1;
+    transform: translateX(0);
+} 
+
